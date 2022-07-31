@@ -1,0 +1,124 @@
+---
+title: OOJ 靈魂之窗 - 部落格
+layout: ./app/layout.ejs
+engine: ejs
+current: blog
+---
+
+<nav class="bg-primary-dark mb-6">
+  <div class="container flex justify-between items-center">
+    <div
+      class="w-full flex justify-between md:justify-start gap-0 md:gap-12 py-3 md:py-2 text-white font-bold md:text-xl"
+    >
+      <a href="#" class="link--underline">最新消息</a>
+      <a href="#" class="link--underline">特別企劃</a>
+      <a href="#" class="link--underline">新品上市</a>
+      <a href="#" class="link--underline">鏡框小知識</a>
+    </div>
+    <button type="button" class="hidden md:block">
+      <span class="material-symbols-outlined text-white py-2 icon"> search </span>
+    </button>
+  </div>
+</nav>
+<main class="container mb-16 md:pb-20">
+  <ul class="flex gap-1 mb-2">
+    <li><a href="/" class="transition duration-300 hover:text-primary-dark">首頁</a></li>
+    <li>/</li>
+    <li>
+      <a href="./blog.html" class="transition duration-300 hover:text-primary-dark">部落格</a>
+    </li>
+    <li>/</li>
+    <li>
+      <a href="./blog.html" class="transition duration-300 hover:text-primary-dark">特別企劃</a>
+    </li>
+    <li>/</li>
+    <li>
+      <span class="text-primary">情人特別企劃</span>
+    </li>
+  </ul>
+  <div class="text-lg flex gap-4">
+    <a href="#" class="text-primary md:font-bold hover:text-primary-dark transition duration-300"
+      >#special</a
+    >
+    <a href="#" class="text-primary md:font-bold hover:text-primary-dark transition duration-300"
+      >#event</a
+    >
+  </div>
+  <div class="flex gap-6">
+    <section class="md:w-8/12">
+      <h1 class="text-2xl md:text-7xl">情人特別企劃</h1>
+      <h2 class="md:text-2xl mb-4 font-medium">2020 Valentine’s Special</h2>
+      <ul class="flex flex-col gap-10 mb-10">
+        <li>
+          <img src="./assets/images/blogpage-1.png" alt="blogpage-1" class="mb-2 w-full" />
+          <p class="text-gray">
+            一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。
+            本次拍攝的鏡框款式與 NEEDS CLASSIC
+            聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+          </p>
+        </li>
+        <li>
+          <img src="./assets/images/blogpage-2.png" alt="blogpage-2" class="mb-2" />
+          <p class="text-gray">
+            一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。
+            本次拍攝的鏡框款式與 NEEDS CLASSIC
+            聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+          </p>
+        </li>
+        <li>
+          <img src="./assets/images/blogpage-3.png" alt="blogpage-3" class="mb-2" />
+          <p class="text-gray">
+            一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。
+            本次拍攝的鏡框款式與 NEEDS CLASSIC
+            聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+          </p>
+        </li>
+        <li>
+          <img src="./assets/images/blogpage-4.png" alt="blogpage-4" class="mb-2" />
+          <p class="text-gray">
+            2/14(五)-2/20(日) 至本店單筆消費滿2980元, 就送情人節限定眼鏡盒1個
+            期間優惠還有~~持他牌鏡框更換鏡片 薄型非球面鏡片折300元 濾藍光鏡片折500元 快快帶上另一半
+            讓彼此每一次睜開眼，都被愛的視線包圍!
+          </p>
+        </li>
+      </ul>
+      <div class="hidden md:flex items-center gap-4 border-b pb-4 mb-4">
+        <h3 class="font-bold">Share</h3>
+        <a href="#" class="block">
+          <i class="fa-brands fa-square-facebook text-2xl leading-none hover:text-primary-dark"></i>
+        </a>
+        <a href="#" class="block">
+          <i class="fa-brands fa-instagram text-2xl leading-none hover:text-primary-dark"></i>
+        </a>
+      </div>
+      <div class="hidden md:flex justify-between">
+        <a href="#" class="flex gap-2 items-center hover:text-primary-dark">
+          <span class="material-symbols-outlined"> arrow_back </span>
+          上一篇：街頭潮人訪問 1
+        </a>
+        <a href="#" class="flex gap-2 items-center hover:text-primary-dark">
+          下一篇：街頭潮人訪問 2
+          <span class="material-symbols-outlined"> arrow_forward </span>
+        </a>
+      </div>
+    </section>
+    <aside class="hidden md:block flex-auto font-bold text-primary">
+      <h3 class="lg:text-3xl mb-2 lg:mb-1 flex items-center lg:gap-2">
+        <span class="material-symbols-outlined text-2xl lg:text-7xl leading-none"> label </span>TAGS
+      </h3>
+      <div class="lg:text-xl">
+        <a href="#" class="mr-4 lg:mr-6 hover:text-primary-dark transition duration-300">#special</a
+        ><a href="#" class="hover:text-primary-dark transition duration-300">#sale</a>
+        <br />
+        <a href="#" class="mr-4 lg:mr-6 hover:text-primary-dark transition duration-300"
+          >#new_item</a
+        ><a href="#" class="hover:text-primary-dark transition duration-300">#interview</a>
+        <br />
+        <a href="#" class="mr-4 lg:mr-6 hover:text-primary-dark transition duration-300">#trivia</a
+        ><a href="#" class="hover:text-primary-dark transition duration-300">#news</a>
+        <br />
+        <a href="#" class="hover:text-primary-dark transition duration-300">#event</a>
+      </div>
+    </aside>
+  </div>
+</main>
