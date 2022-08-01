@@ -5,107 +5,131 @@ engine: ejs
 current: index
 ---
 
-<section class="hero--section">
+<section
+  class="h-[50vh] md:h-screen pt-20 md:pt-0 bg-no-repeat bg-top bg-cover bg-[url(../images/home-header-sm.png)] xl:bg-[url(../images/home-header.png)]"
+>
   <div class="container flex flex-col justify-center items-end h-full">
-    <h2 class="text-2xl text-sm-base text-primary-dark">Promise-Desert 2020 早春系列</h2>
-    <h1 class="text-5xl text-sm-lg font-bold text-primary-dark mb-1">看得清，才能看得遠</h1>
-    <a href="" class="text-md text-white bg-primary bg-primary--hover py-2 px-3 transition"
+    <h2 class="md:text-7xl text-primary-dark">Promise-Desert 2020 早春系列</h2>
+    <h1 class="text-2xl md:text-8xl font-bold text-primary-dark mb-1">看得清，才能看得遠</h1>
+    <a
+      href=""
+      class="text-xl text-white bg-primary hover:bg-primary-dark py-[6px] px-3 transition duration-300"
       >立即購買</a
     >
   </div>
 </section>
 <section class="bg-primary-light">
   <div class="container py-20 text-center">
-    <h2 class="text-primary-dark text-4xl text-sm-lg font-bold mb-6">用專業的心，做專業的事</h2>
-    <ul class="future--layout justify-between">
+    <h2 class="text-primary-dark text-2xl md:text-7xl font-bold mb-6">用專業的心，做專業的事</h2>
+    <ul class="grid md:grid-cols-2 lg:grid-cols-4 justify-between gap-6">
       <li class="">
-        <span class="material-symbols-outlined future--icon text-primary-dark mb-4">paid</span>
-        <h3 class="text-primary-dark text-lg font-bold mb-2">單一價格</h3>
+        <span class="material-symbols-outlined text-primary-dark text-[6.25rem] leading-none mb-4"
+          >paid</span
+        >
+        <h3 class="text-primary-dark text-2xl font-bold mb-2">單一價格</h3>
         <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
       </li>
       <li class="">
-        <span class="material-symbols-outlined future--icon text-primary-dark mb-4">schedule</span>
-        <h3 class="text-primary-dark text-lg font-bold mb-2">20 分鐘即可取件</h3>
+        <span class="material-symbols-outlined text-primary-dark text-[6.25rem] leading-none mb-4"
+          >schedule</span
+        >
+        <h3 class="text-primary-dark text-2xl font-bold mb-2">20 分鐘即可取件</h3>
         <p>
           為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。
         </p>
       </li>
       <li class="">
-        <span class="material-symbols-outlined future--icon text-primary-dark mb-4">favorite</span>
-        <h3 class="text-primary-dark text-lg font-bold mb-2">安心售後服務</h3>
+        <span class="material-symbols-outlined text-primary-dark text-[6.25rem] leading-none mb-4"
+          >favorite</span
+        >
+        <h3 class="text-primary-dark text-2xl font-bold mb-2">安心售後服務</h3>
         <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
       </li>
       <li class="">
-        <span class="material-symbols-outlined future--icon text-primary-dark mb-4">voicemail</span>
-        <h3 class="text-primary-dark text-lg font-bold mb-2">關於鏡片</h3>
+        <span class="material-symbols-outlined text-primary-dark text-[6.25rem] leading-none mb-4"
+          >voicemail</span
+        >
+        <h3 class="text-primary-dark text-2xl font-bold mb-2">關於鏡片</h3>
         <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
       </li>
     </ul>
   </div>
 </section>
 <section class="container py-20 text-center">
-  <h2 class="text-primary-dark text-4xl text-sm-lg font-bold mb-12">經典系列鏡框</h2>
-  <ul class="flex flex-md-wrap justify-between justify-md-center gap-6">
-    <li class="w-md-50 w-sm-full">
-      <a href="./product.html">
-        <div class="overlay mb-2">
-          <img src="assets/images/home-section3-1.png" alt="OPTICAL" />
-        </div>
-        <h3 class="text-primary text-primary--hover text-4xl font-bold italic">OPTICAL</h3>
+  <h2 class="text-primary-dark md:text-7xl text-2xl font-bold mb-12">經典系列鏡框</h2>
+  <ul class="grid lg:grid-cols-3 justify-between gap-6">
+    <li class="text-center relative">
+      <div class="mb-2">
+        <img src="assets/images/home-section3-1.png" alt="OPTICAL" class="" />
+      </div>
+      <h3 class="text-primary text-7xl font-bold italic">OPTICAL</h3>
+      <a
+        href="./product.html"
+        class="absolute top-0 right-0 bottom-0 left-0 bg-primary-light opacity-0 hover:opacity-25 transition-opacity duration-300"
+      >
       </a>
     </li>
-    <li class="w-md-50 w-sm-full text-center">
-      <a href="./product-sun.html">
-        <div class="overlay mb-2">
-          <img src="assets/images/home-section3-2.png" alt="SUNGLASSES" />
-        </div>
-        <h3 class="text-primary text-primary--hover text-4xl font-bold italic">SUNGLASSES</h3>
+    <li class="text-center relative">
+      <div class="mb-2">
+        <img src="assets/images/home-section3-2.png" alt="SUNGLASSES" />
+      </div>
+      <h3 class="text-primary text-7xl font-bold italic">SUNGLASSES</h3>
+      <a
+        href="./product-sun.html"
+        class="absolute top-0 right-0 bottom-0 left-0 bg-primary-light opacity-0 hover:opacity-25 transition-opacity duration-300"
+      >
       </a>
     </li>
-    <li class="w-md-50 w-sm-full">
+    <li class="text-center">
       <a href="./product.html">
-        <div class="overlay mb-2">
+        <div class="mb-2">
           <img src="assets/images/home-section3-3.png" alt="FUNCTIONAL" />
         </div>
-        <h3 class="text-primary text-primary--hover text-4xl font-bold italic">FUNCTIONAL</h3>
+        <h3 class="text-primary text-7xl font-bold italic">FUNCTIONAL</h3>
       </a>
     </li>
   </ul>
 </section>
 
-<section class="co-brand--section">
+<section
+  class="bg-no-repeat bg-cover bg-top bg-[url(../images/index-bg-sm.png)] md:bg-[url(../images/index-bg-md.png)] lg:bg-[url(../images/index-bg.png)]"
+>
   <div class="container py-20">
-    <h2 class="text-white text-4xl text-center font-bold mb-12">聯名設計鏡框</h2>
-    <ul class="flex flex-md-col justify-center gap-md-6">
-      <li>
-        <a href="#">
-          <picture class="overlay overlay--white">
-            <source media="(max-width:767px)" src="assets/images/home-section4-1-sm.png" />
-            <img src="assets/images/home-section4-1.png" alt="DOUBLE A+" />
-          </picture>
-          <h3 class="text-primary text-4xl font-bold italic text-center py-2 w-full bg-white">
-            DOUBLE A+
-          </h3>
-        </a>
+    <h2 class="text-white text-7xl text-center font-bold mb-6 md:mb-12">聯名設計鏡框</h2>
+    <ul class="flex flex-col lg:flex-row justify-center gap-6 lg:gap-0">
+      <li class="relative">
+        <picture class="">
+          <source media="(max-width:767px)" src="assets/images/home-section4-1-sm.png" />
+          <img src="assets/images/home-section4-1.png" alt="DOUBLE A+" />
+        </picture>
+        <h3 class="text-primary text-7xl font-bold italic text-center py-2 w-full bg-white">
+          DOUBLE A+
+        </h3>
+        <a
+          href="#"
+          class="absolute top-0 right-0 bottom-0 left-0 bg-primary-light opacity-0 hover:opacity-25 transition-opacity duration-300"
+        ></a>
       </li>
-      <li>
-        <a href="#">
-          <picture class="overlay overlay--white">
-            <source media="(max-width:767px)" src="assets/images/home-section4-2-sm.png" />
-            <img src="assets/images/home-section4-2.png" alt="YOUTH" />
-          </picture>
-          <h3 class="text-primary text-4xl font-bold italic text-center py-2 w-full bg-white">
-            YOUTH
-          </h3>
-        </a>
+      <li class="relative">
+        <picture class="">
+          <source media="(max-width:767px)" src="assets/images/home-section4-2-sm.png" />
+          <img src="assets/images/home-section4-2.png" alt="YOUTH" />
+        </picture>
+        <h3 class="text-primary text-7xl font-bold italic text-center py-2 w-full bg-white">
+          YOUTH
+        </h3>
+        <a
+          href="#"
+          class="absolute top-0 right-0 bottom-0 left-0 bg-primary-light opacity-0 hover:opacity-25 transition-opacity duration-300"
+        ></a>
       </li>
     </ul>
   </div>
 </section>
 <section class="container py-20">
-  <h2 class="text-primary text-4xl text-center font-bold mb-12">顧客推薦</h2>
-  <ul class="flex flex-md-wrap no-gutters justify-between gap-6">
-    <li class="rounded shadow flex-1 flex-md-50 flex-sm-auto">
+  <h2 class="text-primary text-7xl text-center font-bold mb-12">顧客推薦</h2>
+  <ul class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <li class="rounded border border-[#DEE2E6] shadow-[0_2px_6px] shadow-grayLight">
       <img src="assets/images/home-section5-1.png" alt="" />
       <div class="flex flex-col p-4">
         <h3 class="font-medium mb-2">Jessy</h3>
@@ -113,7 +137,7 @@ current: index
         <span class="mt-auto">2021/06/20</span>
       </div>
     </li>
-    <li class="rounded shadow flex-1 flex-md-50 flex-sm-auto">
+    <li class="rounded border border-[#DEE2E6] shadow-[0_2px_6px] shadow-grayLight">
       <img src="assets/images/home-section5-2.png" alt="" />
       <div class="flex flex-col p-4">
         <h3 class="font-medium mb-2">凱倫</h3>
@@ -121,7 +145,7 @@ current: index
         <span class="mt-auto">2021/04/18</span>
       </div>
     </li>
-    <li class="rounded shadow flex-1 flex-md-50 flex-sm-auto">
+    <li class="rounded border border-[#DEE2E6] shadow-[0_2px_6px] shadow-grayLight">
       <img src="assets/images/home-section5-3.png" alt="" />
       <div class="flex flex-col p-4">
         <h3 class="font-medium mb-2">悠悠</h3>
@@ -129,7 +153,7 @@ current: index
         <span class="mt-auto">2020/12/25</span>
       </div>
     </li>
-    <li class="rounded shadow flex-1 flex-md-50 flex-sm-auto">
+    <li class="rounded border border-[#DEE2E6] shadow-[0_2px_6px] shadow-grayLight">
       <img src="assets/images/home-section5-4.png" alt="" />
       <div class="flex flex-col p-4">
         <h3 class="font-medium mb-2">Kyuan</h3>
@@ -139,10 +163,10 @@ current: index
     </li>
   </ul>
 </section>
-<section class="section bg-primary-light">
-  <div class="container py-20">
-    <h2 class="text-primary text-4xl text-center font-bold mb-12">聯絡我們</h2>
-    <form class="w-50 w-md-80 w-sm-full mx-auto">
+<section class="bg-primary-light">
+  <div class="container py-10 md:py-20">
+    <h2 class="text-primary text-2xl md:text-7xl text-center font-bold mb-12">聯絡我們</h2>
+    <form class="md:w-8/12 lg:w-1/2 mx-auto">
       <p class="mb-6">
         我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
       </p>
@@ -192,15 +216,18 @@ current: index
           <label for="agreePricy">
             <input
               type="checkbox"
-              class="mr-1"
+              class="mr-1 text-primary-dark rounded ring-primary-dark"
               id="agreePricy"
               name="agreePricy"
             />我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
           </label>
         </li>
       </ul>
-      <div class="w-50 mx-auto">
-        <button class="bg-primary bg-primary--hover text-white py-4 w-full" type="button">
+      <div class="md:w-1/2 lg:w-4/12 mx-auto">
+        <button
+          class="bg-primary hover:bg-primary-dark text-white py-4 w-full transition duration-300"
+          type="button"
+        >
           確認送出
         </button>
       </div>
